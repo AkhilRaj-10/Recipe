@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0
+}
+body{
+    background-color:rgba(208, 230, 230, 1)
+}
+.navBox{
+    width:100%;
+    background-color:rgba(236, 243, 248, 1);
+}
+.left-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-content h2{
+    font-weight: 550;
+}
+.navbar-brand span{
+    color:rgba(225, 125, 60, 1);
+}
+.navbar-brand{
+    font-weight:600;
+}
+.HomeContainer{
+    height:100%;
+}
+.right-image{
+    width:30%;
+}
+.right-image img{
+width:100%;
+height:100%;
+object-fit: cover;
+}
+.button-form button{
+    font-size: 18px;
+    padding: 12px 24px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+}
+.button-form button{
+    font-weight: 450;
+    font-family: ui-monospace;
+    background-color:rgba(145, 239, 110, 1)
+    
+}
+.button-form button:nth-child(2){
+    background-color:rgba(171, 221, 217, 1);
+}
+.left-content h2 {
+    font-size: 60px;
+    font-family: Inter;
+    font-weight: 700;
+}
+.left-content h2 span {
+    color:#9FC602
+}
+.button-form{
+    width: 24rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-start;
+}
+
+/* CSS */
+.button-form button {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #2ddc6a;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-form button:hover {
+    background-color: #1e8449;
+    opacity: 1;
+    color:#fff;
+    transform: translateY(0);
+    transition-duration: .35s;
+  }
+  
+  .button-form button:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+  }
+  
+  .button-form button:hover {
+    box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+  }
+  /* button 2 */
+  .button-form button:nth-child(2){
+    background-color:rgba(144, 226, 232, 0.2) 0 6px 12px;;
+
+  }
+  .button-form button:nth-child(2):hover {
+    background-color:#29caad;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+  }
+  
+  .button-form button:nth-child(2):active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+  }
+  
+  .button-form button:nth-child(2):hover {
+    box-shadow: rgba(144, 226, 232, 0.2) 0 6px 12px;
+  }
